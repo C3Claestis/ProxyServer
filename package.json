@@ -1,12 +1,11 @@
 {
-  "name": "unity-replicate-proxy",
+  "name": "replicate-proxy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "18.x"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "build": "echo 'No build needed for serverless'",
+    "dev": "vercel dev"
+  }
 }
